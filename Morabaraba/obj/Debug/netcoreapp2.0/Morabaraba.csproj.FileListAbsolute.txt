@@ -1,0 +1,3 @@
+J:\Desktop\Morabaraba\Morabaraba\obj\Debug\netcoreapp2.0\Morabaraba.csproj.CoreCompileInputs.cache
+J:\Desktop\Morabaraba\Morabaraba\obj\Debug\netcoreapp2.0\Morabaraba.AssemblyInfoInputs.cache
+J:\Desktop\Morabaraba\Morabaraba\obj\Debug\netcoreapp2.0\Morabaraba.AssemblyInfo.cs

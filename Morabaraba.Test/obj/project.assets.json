@@ -5831,15 +5831,12 @@
   },
   "project": {
     "version": "1.0.0",
-    "restoreSettings": {
-      "hideWarningsAndErrors": true
-    },
     "restore": {
-      "projectUniqueName": "\\\\ict.ru.ac.za\\DFS\\UGHomes\\g16S2145\\Desktop\\Morabaraba\\Morabaraba.Test\\Morabaraba.Test.csproj",
+      "projectUniqueName": "J:\\Desktop\\Morabaraba\\Morabaraba.Test\\Morabaraba.Test.csproj",
       "projectName": "Morabaraba.Test",
-      "projectPath": "\\\\ict.ru.ac.za\\DFS\\UGHomes\\g16S2145\\Desktop\\Morabaraba\\Morabaraba.Test\\Morabaraba.Test.csproj",
+      "projectPath": "J:\\Desktop\\Morabaraba\\Morabaraba.Test\\Morabaraba.Test.csproj",
       "packagesPath": "C:\\Users\\g16s2145\\.nuget\\packages\\",
-      "outputPath": "\\\\ict.ru.ac.za\\DFS\\UGHomes\\g16S2145\\Desktop\\Morabaraba\\Morabaraba.Test\\obj\\",
+      "outputPath": "J:\\Desktop\\Morabaraba\\Morabaraba.Test\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
@@ -5860,8 +5857,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "\\\\ict.ru.ac.za\\DFS\\UGHomes\\g16S2145\\Desktop\\Morabaraba\\Morabaraba\\Morabaraba.csproj": {
-              "projectPath": "\\\\ict.ru.ac.za\\DFS\\UGHomes\\g16S2145\\Desktop\\Morabaraba\\Morabaraba\\Morabaraba.csproj"
+            "J:\\Desktop\\Morabaraba\\Morabaraba\\Morabaraba.csproj": {
+              "projectPath": "J:\\Desktop\\Morabaraba\\Morabaraba\\Morabaraba.csproj"
             }
           }
         }
@@ -5880,6 +5877,7 @@
             "version": "[15.7.0, )"
           },
           "Microsoft.NETCore.App": {
+            "suppressParent": "All",
             "target": "Package",
             "version": "[2.0.0, )",
             "autoReferenced": true

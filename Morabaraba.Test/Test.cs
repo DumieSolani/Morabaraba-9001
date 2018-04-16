@@ -1,5 +1,5 @@
 ﻿using System;
-using NUnit.Framewotk;
+using NUnit.Framework;
 using System.Linq;
 
 namespace Morabaraba.Test
@@ -8,9 +8,13 @@ namespace Morabaraba.Test
     public class Test
     {
         [Test]
-        public void ABoardHasNoCow()
+        public void APlayerHas12Cows()
         {
             Board b = new Board();
+            int OCows = b.numCows(Player.O);
+            int XCows = b.numCows(Player.X);
+            Assert.That(OCows == 12);
+            Assert.That(XCows == 12);
         }
     }
 }

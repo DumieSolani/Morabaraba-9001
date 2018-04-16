@@ -16,5 +16,13 @@ namespace Morabaraba.Test
             Assert.That(OCows == 0);
             Assert.That(XCows == 0);
         }
+
+        [Test]
+        public void EmptyBoard()
+        {
+            string[] Board = { };
+
+            Assert.That(Board.Length == 0);
+        }
     }
 }

@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Morabaraba_official
+namespace Morabaraba
 {
     class RunGame
     {
-        static void Main(string[] args)
+        static void Main(string[] args) // entry point
         {
             Console.WriteLine("Player X starts playing the game. Each player has 12 cows to place on the Board");
 

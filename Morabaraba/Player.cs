@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace Morabaraba
 {
-    class GamePlayer : IPlayer
+    public class GamePlayer : IPlayer
     {
         public GamePlayer(Player player)
         {

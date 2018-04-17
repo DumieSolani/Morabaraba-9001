@@ -47,6 +47,14 @@ namespace Morabaraba.Test
             Assert.That((b.getBoard()).Length ==24);
         }
 
+        [Test]
+
+        public void BoardHasTwenty_FourSpaces()
+        {
+            Board b = new Board();
+            Assert.That((b.getBoard()).Length ==24);
+        }
+
 
         [Test]
         public void CowsCanOnlyBePlacedOnEmptySpaces()
@@ -81,11 +89,7 @@ namespace Morabaraba.Test
            
         }
 
-<<<<<<< HEAD
-
-        //These tests fall under the MOVEMENT PHASE
-=======
-       
+     
         [Test]
         public void PlayersStartwithTwelveCows()
         {
@@ -129,11 +133,11 @@ namespace Morabaraba.Test
             Assert.That(playerX.Cows == 11 && playerX.Cows == 11);
 
         }
+      
 
 
 
     }   
->>>>>>> 5871723fc7e9e1939b915a7e62264c4f88c824a3
     
         //These tests fall under the GENERAL PHASE
         [Test]

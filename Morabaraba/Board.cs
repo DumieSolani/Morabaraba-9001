@@ -67,7 +67,7 @@ namespace Morabaraba
 
         public Dictionary<string, INode> board = new Dictionary<string, INode>();
 
-        public Board()
+        public Board()//This is a constructor
         {
             foreach (string pos in validPositions)//initialising board with empty values
             {

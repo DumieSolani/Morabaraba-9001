@@ -22,10 +22,12 @@ namespace Morabaraba
 
         }
 
+
+
         private int numCows;
         private bool flying = false;
         public Player playerID => gameplayer;
-
+        
         public void makeFlying()
         {
             flying = true;

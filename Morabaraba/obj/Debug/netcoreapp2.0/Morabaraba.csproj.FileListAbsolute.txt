@@ -20,3 +20,14 @@ J:\Desktop\Morabaraba\Morabaraba\bin\Debug\netcoreapp2.0\Morabaraba.pdb
 J:\Desktop\Morabaraba\Morabaraba\obj\Debug\netcoreapp2.0\Morabaraba.csprojResolveAssemblyReference.cache
 J:\Desktop\Morabaraba\Morabaraba\obj\Debug\netcoreapp2.0\Morabaraba.dll
 J:\Desktop\Morabaraba\Morabaraba\obj\Debug\netcoreapp2.0\Morabaraba.pdb
+J:\Morabaraba-9001\Morabaraba\bin\Debug\netcoreapp2.0\Morabaraba.deps.json
+J:\Morabaraba-9001\Morabaraba\bin\Debug\netcoreapp2.0\Morabaraba.runtimeconfig.json
+J:\Morabaraba-9001\Morabaraba\bin\Debug\netcoreapp2.0\Morabaraba.runtimeconfig.dev.json
+J:\Morabaraba-9001\Morabaraba\bin\Debug\netcoreapp2.0\Morabaraba.dll
+J:\Morabaraba-9001\Morabaraba\bin\Debug\netcoreapp2.0\Morabaraba.pdb
+J:\Morabaraba-9001\Morabaraba\obj\Debug\netcoreapp2.0\Morabaraba.csprojResolveAssemblyReference.cache
+J:\Morabaraba-9001\Morabaraba\obj\Debug\netcoreapp2.0\Morabaraba.csproj.CoreCompileInputs.cache
+J:\Morabaraba-9001\Morabaraba\obj\Debug\netcoreapp2.0\Morabaraba.AssemblyInfoInputs.cache
+J:\Morabaraba-9001\Morabaraba\obj\Debug\netcoreapp2.0\Morabaraba.AssemblyInfo.cs
+J:\Morabaraba-9001\Morabaraba\obj\Debug\netcoreapp2.0\Morabaraba.dll
+J:\Morabaraba-9001\Morabaraba\obj\Debug\netcoreapp2.0\Morabaraba.pdb

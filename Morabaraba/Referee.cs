@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Morabaraba
 {
-    class Referee: IReferee
+    public class Referee: IReferee
     {
         //Symbolic of the DARK Player
         private IPlayer player1 = new GamePlayer(Player.X);
@@ -14,6 +14,8 @@ namespace Morabaraba
         private IPlayer player2 = new GamePlayer(Player.O);
         //This is the gameBoard on which the referee is working on
         private IBoard gameBoard = new Board();
+        //To check if whether game is now in placement phase
+        
 
         public void placingPhase()
         {
@@ -22,6 +24,7 @@ namespace Morabaraba
             {
                 gameBoard.drawBoard();
                 gameBoard.Place(currPlayer);
+               
                 //Short construct for an if else method...
                 currPlayer = currPlayer == player1 ? player2 : player1;                
             }
@@ -32,6 +35,7 @@ namespace Morabaraba
             IPlayer currentPlayer = player1;
             while (true)
             {
+                
                 gameBoard.drawBoard();
                 //When a player has only three cows remaining, desperate measures are
                 //called for. This player's cows are allowed to "fly" to any empty intersection,

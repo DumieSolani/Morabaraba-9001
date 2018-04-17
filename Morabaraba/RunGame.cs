@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Morabaraba
 {
-    class RunGame
+    public class RunGame
     {
         static void Main(string[] args) // entry point
         {

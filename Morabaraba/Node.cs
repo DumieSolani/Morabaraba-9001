@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Morabaraba
 {
-    class Node : INode
+    public class Node : INode
     {
         private Player state;
         public Player getState => state;

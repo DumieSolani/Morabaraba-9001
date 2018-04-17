@@ -133,6 +133,17 @@ namespace Morabaraba.Test
             Assert.That(playerX.Cows == 11 && playerX.Cows == 11);
 
         }
+        [Test]
+        public void PlayersStartwithTwelveCows()
+        {
+            IPlayer player1 = new GamePlayer(Player.X);
+            IPlayer player2 = new GamePlayer(Player.O);
+
+            IPlayer currPlayer1 = player1;
+            IPlayer currPlayer2 = player2;
+            Assert.That(currPlayer1.Cows == 12 && currPlayer2.Cows ==12);
+                        
+        }
       
 
 

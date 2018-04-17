@@ -163,6 +163,22 @@ namespace Morabaraba.Test
 
         }
 
+        [Test]
+
+        public void CowsAreReduced()
+        {
+            IPlayer playerX = new GamePlayer(Player.X);
+            IPlayer playerO = new GamePlayer(Player.O);
+            
+
+            
+            playerX.reduceNumCows();
+            playerO.reduceNumCows();
+
+            Assert.That(playerX.Cows == 11 && playerX.Cows == 11);
+
+        }
+
 
 
 

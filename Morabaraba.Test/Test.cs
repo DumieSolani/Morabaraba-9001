@@ -2,6 +2,7 @@
 using NUnit.Framework;
 using System.Linq;
 using System.Collections.Generic;
+using NSubstitute;
 
 namespace Morabaraba.Test
 {
@@ -184,6 +185,32 @@ namespace Morabaraba.Test
             //as the state in the is only changed once in the movement phase.
             Assert.That(MockBoard.allInMill(Player.X) == false);
         }
+        [Test]
+        public void MovingDoesNotChangeCowNumbers()
+        {
+
+            Board b = new Board();
+            b.board["A4"] = new Node(Player.X);
+            IPlayer Xplayer = Substitute.For<IPlayer>();
+            Xplayer.playerID.Returns(Player.X);
+            Xplayer.getMove(Arg.Any<string>()).Returns("A4", "A1");
+            int currentCowNumber = b.numCows(Xplayer.playerID);
+            int newCowsNumber = b.numCows(Xplayer.playerID);
+            b.Move(Xplayer);
+            Assert.That(newCowsNumber == currentCowNumber);
+        }
+
+
+        [Test]
+        public void AMaximumOf12PlacementsPerPlayerAreAllowed()
+        {
+            GamePlayer PlayerX = new GamePlayer(Player.X);
+            Assert.That(PlayerX.Cows == 12);
+            GamePlayer PlayerO = new GamePlayer(Player.O);
+            Assert.That(PlayerO.Cows == 12);
+        }
+
+
 
 
     }

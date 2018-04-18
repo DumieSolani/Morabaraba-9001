@@ -1,0 +1,17 @@
+\\ict.ru.ac.za\DFS\UGHomes\g16m3698\Desktop\Morabaraba-9001\Morabaraba.Test\bin\Debug\netcoreapp2.0\NUnit3.TestAdapter.dll
+\\ict.ru.ac.za\DFS\UGHomes\g16m3698\Desktop\Morabaraba-9001\Morabaraba.Test\bin\Debug\netcoreapp2.0\NUnit3.TestAdapter.pdb
+\\ict.ru.ac.za\DFS\UGHomes\g16m3698\Desktop\Morabaraba-9001\Morabaraba.Test\bin\Debug\netcoreapp2.0\nunit.engine.netstandard.dll
+\\ict.ru.ac.za\DFS\UGHomes\g16m3698\Desktop\Morabaraba-9001\Morabaraba.Test\bin\Debug\netcoreapp2.0\Mono.Cecil.dll
+\\ict.ru.ac.za\DFS\UGHomes\g16m3698\Desktop\Morabaraba-9001\Morabaraba.Test\bin\Debug\netcoreapp2.0\Morabaraba.Test.deps.json
+\\ict.ru.ac.za\DFS\UGHomes\g16m3698\Desktop\Morabaraba-9001\Morabaraba.Test\bin\Debug\netcoreapp2.0\Morabaraba.Test.runtimeconfig.json
+\\ict.ru.ac.za\DFS\UGHomes\g16m3698\Desktop\Morabaraba-9001\Morabaraba.Test\bin\Debug\netcoreapp2.0\Morabaraba.Test.runtimeconfig.dev.json
+\\ict.ru.ac.za\DFS\UGHomes\g16m3698\Desktop\Morabaraba-9001\Morabaraba.Test\bin\Debug\netcoreapp2.0\Morabaraba.Test.dll
+\\ict.ru.ac.za\DFS\UGHomes\g16m3698\Desktop\Morabaraba-9001\Morabaraba.Test\bin\Debug\netcoreapp2.0\Morabaraba.Test.pdb
+\\ict.ru.ac.za\DFS\UGHomes\g16m3698\Desktop\Morabaraba-9001\Morabaraba.Test\bin\Debug\netcoreapp2.0\Morabaraba.dll
+\\ict.ru.ac.za\DFS\UGHomes\g16m3698\Desktop\Morabaraba-9001\Morabaraba.Test\bin\Debug\netcoreapp2.0\Morabaraba.pdb
+\\ict.ru.ac.za\DFS\UGHomes\g16m3698\Desktop\Morabaraba-9001\Morabaraba.Test\obj\Debug\netcoreapp2.0\Morabaraba.Test.csprojResolveAssemblyReference.cache
+\\ict.ru.ac.za\DFS\UGHomes\g16m3698\Desktop\Morabaraba-9001\Morabaraba.Test\obj\Debug\netcoreapp2.0\Morabaraba.Test.csproj.CoreCompileInputs.cache
+\\ict.ru.ac.za\DFS\UGHomes\g16m3698\Desktop\Morabaraba-9001\Morabaraba.Test\obj\Debug\netcoreapp2.0\Morabaraba.Test.AssemblyInfoInputs.cache
+\\ict.ru.ac.za\DFS\UGHomes\g16m3698\Desktop\Morabaraba-9001\Morabaraba.Test\obj\Debug\netcoreapp2.0\Morabaraba.Test.AssemblyInfo.cs
+\\ict.ru.ac.za\DFS\UGHomes\g16m3698\Desktop\Morabaraba-9001\Morabaraba.Test\obj\Debug\netcoreapp2.0\Morabaraba.Test.dll
+\\ict.ru.ac.za\DFS\UGHomes\g16m3698\Desktop\Morabaraba-9001\Morabaraba.Test\obj\Debug\netcoreapp2.0\Morabaraba.Test.pdb

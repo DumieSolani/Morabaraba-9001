@@ -5825,7 +5825,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\g16m0301\\.nuget\\packages\\": {},
+    "C:\\Users\\g16m3698\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
@@ -5835,18 +5835,18 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "J:\\Morabaraba-9001\\Morabaraba.Test\\Morabaraba.Test.csproj",
+      "projectUniqueName": "\\\\ict.ru.ac.za\\DFS\\UGHomes\\g16m3698\\Desktop\\Morabaraba-9001\\Morabaraba.Test\\Morabaraba.Test.csproj",
       "projectName": "Morabaraba.Test",
-      "projectPath": "J:\\Morabaraba-9001\\Morabaraba.Test\\Morabaraba.Test.csproj",
-      "packagesPath": "C:\\Users\\g16m0301\\.nuget\\packages\\",
-      "outputPath": "J:\\Morabaraba-9001\\Morabaraba.Test\\obj\\",
+      "projectPath": "\\\\ict.ru.ac.za\\DFS\\UGHomes\\g16m3698\\Desktop\\Morabaraba-9001\\Morabaraba.Test\\Morabaraba.Test.csproj",
+      "packagesPath": "C:\\Users\\g16m3698\\.nuget\\packages\\",
+      "outputPath": "\\\\ict.ru.ac.za\\DFS\\UGHomes\\g16m3698\\Desktop\\Morabaraba-9001\\Morabaraba.Test\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\g16m0301\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\g16m3698\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
       ],
@@ -5860,8 +5860,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "J:\\Morabaraba-9001\\Morabaraba\\Morabaraba.csproj": {
-              "projectPath": "J:\\Morabaraba-9001\\Morabaraba\\Morabaraba.csproj"
+            "\\\\ict.ru.ac.za\\DFS\\UGHomes\\g16m3698\\Desktop\\Morabaraba-9001\\Morabaraba\\Morabaraba.csproj": {
+              "projectPath": "\\\\ict.ru.ac.za\\DFS\\UGHomes\\g16m3698\\Desktop\\Morabaraba-9001\\Morabaraba\\Morabaraba.csproj"
             }
           }
         }

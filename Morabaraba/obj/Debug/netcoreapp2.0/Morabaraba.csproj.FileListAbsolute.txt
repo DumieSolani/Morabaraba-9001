@@ -1,0 +1,11 @@
+\\ict.ru.ac.za\DFS\UGHomes\g16m3698\Desktop\Morabaraba-9001\Morabaraba\bin\Debug\netcoreapp2.0\Morabaraba.deps.json
+\\ict.ru.ac.za\DFS\UGHomes\g16m3698\Desktop\Morabaraba-9001\Morabaraba\bin\Debug\netcoreapp2.0\Morabaraba.runtimeconfig.json
+\\ict.ru.ac.za\DFS\UGHomes\g16m3698\Desktop\Morabaraba-9001\Morabaraba\bin\Debug\netcoreapp2.0\Morabaraba.runtimeconfig.dev.json
+\\ict.ru.ac.za\DFS\UGHomes\g16m3698\Desktop\Morabaraba-9001\Morabaraba\bin\Debug\netcoreapp2.0\Morabaraba.dll
+\\ict.ru.ac.za\DFS\UGHomes\g16m3698\Desktop\Morabaraba-9001\Morabaraba\bin\Debug\netcoreapp2.0\Morabaraba.pdb
+\\ict.ru.ac.za\DFS\UGHomes\g16m3698\Desktop\Morabaraba-9001\Morabaraba\obj\Debug\netcoreapp2.0\Morabaraba.csprojResolveAssemblyReference.cache
+\\ict.ru.ac.za\DFS\UGHomes\g16m3698\Desktop\Morabaraba-9001\Morabaraba\obj\Debug\netcoreapp2.0\Morabaraba.csproj.CoreCompileInputs.cache
+\\ict.ru.ac.za\DFS\UGHomes\g16m3698\Desktop\Morabaraba-9001\Morabaraba\obj\Debug\netcoreapp2.0\Morabaraba.AssemblyInfoInputs.cache
+\\ict.ru.ac.za\DFS\UGHomes\g16m3698\Desktop\Morabaraba-9001\Morabaraba\obj\Debug\netcoreapp2.0\Morabaraba.AssemblyInfo.cs
+\\ict.ru.ac.za\DFS\UGHomes\g16m3698\Desktop\Morabaraba-9001\Morabaraba\obj\Debug\netcoreapp2.0\Morabaraba.dll
+\\ict.ru.ac.za\DFS\UGHomes\g16m3698\Desktop\Morabaraba-9001\Morabaraba\obj\Debug\netcoreapp2.0\Morabaraba.pdb

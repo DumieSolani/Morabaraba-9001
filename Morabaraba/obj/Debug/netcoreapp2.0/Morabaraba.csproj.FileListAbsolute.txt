@@ -31,3 +31,14 @@ J:\Morabaraba-9001\Morabaraba\obj\Debug\netcoreapp2.0\Morabaraba.AssemblyInfoInp
 J:\Morabaraba-9001\Morabaraba\obj\Debug\netcoreapp2.0\Morabaraba.AssemblyInfo.cs
 J:\Morabaraba-9001\Morabaraba\obj\Debug\netcoreapp2.0\Morabaraba.dll
 J:\Morabaraba-9001\Morabaraba\obj\Debug\netcoreapp2.0\Morabaraba.pdb
+C:\Users\user\Desktop\Morabaraba-9001\Morabaraba\bin\Debug\netcoreapp2.0\Morabaraba.deps.json
+C:\Users\user\Desktop\Morabaraba-9001\Morabaraba\bin\Debug\netcoreapp2.0\Morabaraba.runtimeconfig.json
+C:\Users\user\Desktop\Morabaraba-9001\Morabaraba\bin\Debug\netcoreapp2.0\Morabaraba.runtimeconfig.dev.json
+C:\Users\user\Desktop\Morabaraba-9001\Morabaraba\bin\Debug\netcoreapp2.0\Morabaraba.dll
+C:\Users\user\Desktop\Morabaraba-9001\Morabaraba\bin\Debug\netcoreapp2.0\Morabaraba.pdb
+C:\Users\user\Desktop\Morabaraba-9001\Morabaraba\obj\Debug\netcoreapp2.0\Morabaraba.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\Morabaraba-9001\Morabaraba\obj\Debug\netcoreapp2.0\Morabaraba.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Morabaraba-9001\Morabaraba\obj\Debug\netcoreapp2.0\Morabaraba.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\Morabaraba-9001\Morabaraba\obj\Debug\netcoreapp2.0\Morabaraba.AssemblyInfo.cs
+C:\Users\user\Desktop\Morabaraba-9001\Morabaraba\obj\Debug\netcoreapp2.0\Morabaraba.dll
+C:\Users\user\Desktop\Morabaraba-9001\Morabaraba\obj\Debug\netcoreapp2.0\Morabaraba.pdb

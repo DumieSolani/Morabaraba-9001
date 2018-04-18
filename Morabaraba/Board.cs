@@ -13,28 +13,34 @@ namespace Morabaraba
             Console.Clear();
 
             string[] GameBoard = board.Values.Select(cell => playerToString(cell.getState)).ToArray();
+            
+            
 
             string theGameBoard =
                  $@"
-                                                                    1   2   3   4   5   6   7
-                                                                a   {GameBoard[0]}-----------{GameBoard[1]}-----------{GameBoard[2]}
-                                                                    | \         |         / |
-                                                                b   |   {GameBoard[3]}-------{GameBoard[4]}-------{GameBoard[5]}   |
-                                                                    |   | \     |     / |   |
-                                                                c   |   |   {GameBoard[6]}---{GameBoard[7]}---{GameBoard[8]}   |   |
-                                                                    |   |   |       |   |   |
-                                                                d   {GameBoard[9]}---{GameBoard[10]}---{GameBoard[11]}       {GameBoard[12]}---{GameBoard[13]}---{GameBoard[14]}
-                                                                    |   |   |       |   |   |
-                                                                e   |   |   {GameBoard[15]}---{GameBoard[16]}---{GameBoard[17]}   |   |
-                                                                    |   | /     |     \ |   |
-                                                                f   |   {GameBoard[18]}-------{GameBoard[19]}-------{GameBoard[20]}   |
-                                                                    | /         |         \ |
-                                                                g   {GameBoard[21]}-----------{GameBoard[22]}-----------{GameBoard[23]}
+                        1   2   3   4   5   6   7
+                    a   {GameBoard[0]}-----------{GameBoard[1]}-----------{GameBoard[2]}
+                        | \         |         / |
+                    b   |   {GameBoard[3]}-------{GameBoard[4]}-------{GameBoard[5]}   |
+                        |   | \     |     / |   |
+                    c   |   |   {GameBoard[6]}---{GameBoard[7]}---{GameBoard[8]}   |   |
+                        |   |   |       |   |   |
+                    d   {GameBoard[9]}---{GameBoard[10]}---{GameBoard[11]}       {GameBoard[12]}---{GameBoard[13]}---{GameBoard[14]}
+                        |   |   |       |   |   |
+                    e   |   |   {GameBoard[15]}---{GameBoard[16]}---{GameBoard[17]}   |   |
+                        |   | /     |     \ |   |
+                    f   |   {GameBoard[18]}-------{GameBoard[19]}-------{GameBoard[20]}   |
+                        | /         |         \ |
+                    g   {GameBoard[21]}-----------{GameBoard[22]}-----------{GameBoard[23]}
             ";
 
             Console.WriteLine(theGameBoard);
         }
-
+        public string [] getBoard()//Method for board testing
+        {
+            string [] GameBoard = board.Values.Select(cell => playerToString(cell.getState)).ToArray();
+            return GameBoard;
+        }
 
         public static string[] validPositions = new string[] { "A1", "A4", "A7", "B2", "B4", "B6", "C3", "C4", "C5", "D1", "D2", "D3", "D5", "D6", "D7", "E3", "E4", "E5", "F2", "F4", "F6", "G1", "G4", "G7" };
 
@@ -129,6 +135,7 @@ namespace Morabaraba
             while (true)
             {
                 placePos = player.getMove("Select position to place your piece: ");
+                
                 if (board[placePos].getState == Player.None)
                 {
                     break;

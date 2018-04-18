@@ -15,13 +15,17 @@ namespace Morabaraba
         //This is the gameBoard on which the referee is working on
         private IBoard gameBoard = new Board();
         //To check if whether game is now in placement phase
+        public bool isInMovingPhase = false;
+      
         
-
         public void placingPhase()
         {
+            //The following code tests if the player is in the placement phase
             IPlayer currPlayer = player1;
             while (currPlayer.Cows > 0)
             {
+                //The following code sets the PlayerPhase to Placing
+             
                 gameBoard.drawBoard();
                 gameBoard.Place(currPlayer);
                
@@ -35,7 +39,9 @@ namespace Morabaraba
             IPlayer currentPlayer = player1;
             while (true)
             {
-                
+                //This says that the Player is now in the Movement Phase.
+                isInMovingPhase = !isInMovingPhase; 
+
                 gameBoard.drawBoard();
                 //When a player has only three cows remaining, desperate measures are
                 //called for. This player's cows are allowed to "fly" to any empty intersection,

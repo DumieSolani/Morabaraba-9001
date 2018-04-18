@@ -210,6 +210,19 @@ namespace Morabaraba.Test
             Assert.That(PlayerO.Cows == 12);
         }
 
+        [Test]
+        public void CowsCanOnlyBePlayedOnEmptySpaces()
+        {
+            Board b = Substitute.For<Board>();
+            b.board["A1"] = new Node(Player.O);
+            b.board["A4"] = new Node(Player.None);
+            IPlayer x = Substitute.For<IPlayer>();
+            x.playerID.Returns(Player.X);
+            x.getMove(Arg.Any<string>()).Returns("A1", "A4");
+            b.Place(x);
+            Assert.That(b.board["A1"].getState == Player.O && b.board["A4"].getState == Player.X);
+        }
+
 
 
 

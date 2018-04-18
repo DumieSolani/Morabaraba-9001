@@ -223,6 +223,14 @@ namespace Morabaraba.Test
             Assert.That(b.board["A1"].getState == Player.O && b.board["A4"].getState == Player.X);
         }
 
+        [Test]
+        public void AWinnOccursIfAnOpponentCannotMove()
+        {
+            Board MockBoard = new Board();
+            IPlayer playerX = new GamePlayer(Player.X);
+
+            Assert.That((MockBoard.numCows(Player.X) < 3 && MockBoard.canPlay(playerX)) == true);
+        }
 
 
 

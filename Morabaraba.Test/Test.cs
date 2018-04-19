@@ -21,23 +21,24 @@ namespace Morabaraba.Test
             Assert.That(OCows == 0);
             Assert.That(XCows == 0);
         }
-
+        public static string[] validPositions = new string[] { "A1", "A4", "A7", "B2", "B4", "B6", "C3", "C4", "C5", "D1", "D2", "D3", "D5", "D6", "D7", "E3", "E4", "E5", "F2", "F4", "F6", "G1", "G4", "G7" };
         [Test]
-        public void EmptyBoard()
+        public void EmptyBoard()//Empty Borad now fixed and working
         {
-            Board b = new Board();
-            int empty = 0;
 
-            foreach (string item in b.getBoard())
-            {
-                if(item == " ")
-                {
-                    empty++;
-                }
-            }
-
+            IBoard b = new Board();
            
-            Assert.That(empty ==24);
+            int empty = 0;           
+            for (int i = 0; i < validPositions.Length; i++)
+            {
+                INode myPos = b.getCell(validPositions[i]);
+                if (myPos.getState == Player.None)
+                    empty++;                
+                else
+                    break;
+            }
+           
+            Assert.That(empty == 24);
         }
 
         [Test]

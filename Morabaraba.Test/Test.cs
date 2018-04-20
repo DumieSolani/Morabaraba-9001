@@ -21,12 +21,16 @@ namespace Morabaraba.Test
             Assert.That(OCows == 0);
             Assert.That(XCows == 0);
         }
-        public static string[] validPositions = new string[] { "A1", "A4", "A7", "B2", "B4", "B6", "C3", "C4", "C5", "D1", "D2", "D3", "D5", "D6", "D7", "E3", "E4", "E5", "F2", "F4", "F6", "G1", "G4", "G7" };
+
         [Test]
         public void EmptyBoard()//Empty Borad now fixed and working
         {
 
-            IBoard b = new Board();
+        //This simulates the valid positions in the array. This is also found in the board class.
+        string[] validPositions = new string[] { "A1", "A4", "A7", "B2", "B4", "B6", "C3", "C4", "C5", "D1", "D2", "D3", "D5", "D6", "D7", "E3", "E4", "E5", "F2", "F4", "F6", "G1", "G4", "G7" };
+
+
+        IBoard b = new Board();
            
             int empty = 0;           
             for (int i = 0; i < validPositions.Length; i++)
@@ -64,13 +68,14 @@ namespace Morabaraba.Test
         }
 
         [Test]
-        public void ThePlayerWithDarkCowsIsGivenTheFirstChanceToMove()
+        public void ThePlayerWithDarkCowsIsGivenTheFirstChanceToMove()//Updated and fixed without assignment statement
         {
-            Player state;
-            state = Player.X;
+            IPlayer state = new GamePlayer(Player.X);
 
-            Assert.That(state.Equals(Player.X));
-
+            //This test shows that if the opponent is Player O, then the first player
+            //is player is Player X 
+            Assert.That(state.getOpponent() == Player.O);
+           
         }
 
         [Test]

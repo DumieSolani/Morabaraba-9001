@@ -34,6 +34,28 @@ namespace Morabaraba
             }
         }
 
+        public bool YWins(IBoard gameBoard)
+        {
+            if (gameBoard.numCows(Player.X) < 3 || !gameBoard.canPlay(player1))
+            {
+                Console.WriteLine("Y has won the Game......Congradulations to PLAYER Y!!");
+                return true;
+            }
+
+            return false;
+        }
+
+        public bool XWins(IBoard gameBoard)
+        {
+            if (gameBoard.numCows(Player.O) < 3 || !gameBoard.canPlay(player2))
+            {
+                Console.WriteLine("X has won the Game......Congradulations to PLAYER Y!!");
+                return true;
+            }
+
+            return false;
+        }
+
         public void movingPhase()
         {
             IPlayer currentPlayer = player1;
@@ -58,16 +80,11 @@ namespace Morabaraba
                 //If one person cheats, then the other one wins by default
                 //The code below checks if an opponent has got or has got not moves at all
 
-                if (gameBoard.numCows(Player.X) < 3 || !gameBoard.canPlay(player1))
-                {
-                    Console.WriteLine("Y has won the Game......Congradulations to PLAYER Y!!");
+                if (XWins(gameBoard))//Checks if XWins the game
                     break;
-                }
-                if (gameBoard.numCows(Player.O) < 3 || !gameBoard.canPlay(player2))
-                {
-                    Console.WriteLine("X has won the Game......Congradulations to PLAYER X!");
+                if (YWins(gameBoard))//Checks if YWins the game
                     break;
-                }
+               
                 gameBoard.Move(currentPlayer);
                 //Shorter construct for an if else method....
                 currentPlayer = currentPlayer == player1 ? player2 : player1;              

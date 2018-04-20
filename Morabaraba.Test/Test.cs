@@ -56,7 +56,7 @@ namespace Morabaraba.Test
 
 
         [Test]
-        public void CowsCanOnlyBePlacedOnEmptySpaces()
+        public void CowsCanOnlyBePlacedOnEmptySpaces()//Updated and fixed without the Player.X
         {
             string position = "A7";//This is an example of fake input
 
@@ -72,8 +72,8 @@ namespace Morabaraba.Test
         {
             IPlayer state = new GamePlayer(Player.X);
 
-            //This test shows that if the opponent is Player O, then the first player
-            //is player is Player X 
+            //This test shows that if the opponent is Player O, 
+            //then the first player is player is Player X 
             Assert.That(state.getOpponent() == Player.O);
            
         }
@@ -230,12 +230,13 @@ namespace Morabaraba.Test
         }
 
         [Test]
-        public void AWinnOccursIfAnOpponentCannotMove()
+        public void AWinnOccursIfAnOpponentCannotMove()//Partially fixed. Needs revision
         {
-            Board MockBoard = new Board();
+            IBoard MockBoard = new Board();
             IPlayer playerX = new GamePlayer(Player.X);
+            IReferee mockRef = new Referee();
 
-            Assert.That((MockBoard.numCows(Player.X) < 3 && MockBoard.canPlay(playerX)) == true);
+            Assert.That((MockBoard.numCows(Player.X) < 3 && MockBoard.canPlay(playerX)) == true && (mockRef.XWins(MockBoard) == true || mockRef.YWins(MockBoard) == true));
         }
 
 

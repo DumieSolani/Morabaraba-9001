@@ -65,6 +65,11 @@ public interface IReferee
     void placingPhase();
     //Phase following the Placement phase where the entities move adjacently if position is unoccupied.
     void movingPhase();
+    //This checks if X has won the game
+    bool XWins(IBoard gameboard);
+    //This checks if Y has won the game
+    bool YWins(IBoard gameBoard);
+
 }
 
 public class Node : INode

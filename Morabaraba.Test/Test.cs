@@ -88,8 +88,22 @@ namespace Morabaraba.Test
             Assert.That(referee.isInMovingPhase == false);
            
         }
+        [Test]
+        public void CowInMillWhenAllPlayerCowsInMillCanBeShot()
+        {
+            IReferee referee = new Referee();
+            IBoard b = Substitute.For<IBoard>();
+            IPlayer x = Substitute.For<IPlayer>();
+            IPlayer o = Substitute.For<IPlayer>();
+            x.playerID.Returns(Player.X);
+            x.getOpponent().Returns(Player.O);
+            o.playerID.Returns(Player.O);
+            o.getOpponent().Returns(Player.X);
 
-     
+            
+        }
+
+
         [Test]
         public void PlayersStartwithTwelveCows()
         {

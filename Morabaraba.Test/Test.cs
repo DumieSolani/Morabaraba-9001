@@ -253,6 +253,48 @@ namespace Morabaraba.Test
             Assert.That((MockBoard.numCows(Player.X) < 3 && MockBoard.canPlay(playerX)) == true && (mockRef.XWins(MockBoard) == true || mockRef.YWins(MockBoard) == true));
         }
 
+        static object[] possibleMills =
+        {
+            new object[] { new string[] {"A1","A4","A7"}, true },
+            new object[] { new string[] {"A1","B2","C3"}, true },
+            new object[] { new string[] {"A1","D1","G1"}, true },
+            new object[] { new string[] {"A4","B4","C4"}, true },
+            new object[] { new string[] {"A7","B6","C5"}, true },
+            new object[] { new string[] {"A7","D7","G7"}, true },
+            new object[] { new string[] {"B2","B4","B6"}, true },
+            new object[] { new string[] {"B2","D2","F2"}, true },
+            new object[] { new string[] {"B6","D6","F6"}, true },
+            new object[] { new string[] {"C3","C4","C5"}, true },
+            new object[] { new string[] {"C3","D3","E3"}, true },
+            new object[] { new string[] {"D1","D2","D3"}, true },
+            new object[] { new string[] {"D5","D6","D7"}, true },
+            new object[] { new string[] {"E3","E4","E5"}, true },
+            new object[] { new string[] {"E4","F4","G4"}, true },
+            new object[] { new string[] {"E5","F6","G7"}, true },
+            new object[] { new string[] {"F2","F4","F6"}, true },
+            new object[] { new string[] {"G1","G4","G7"}, true },
+        };
+
+        [Test]
+        [TestCaseSource(nameof(possibleMills))]
+
+        public void CheckMill_Is_Formed(string[] c, bool expected)
+        {
+
+            IPlayer player1 = new GamePlayer(Player.X);
+            IReferee referee = new Referee();
+            Board MockBoard = new Board();
+
+            MockBoard.board[c[0]] = new Node(Player.X);
+            MockBoard.board[c[1]] = new Node(Player.X);
+            MockBoard.board[c[2]] = new Node(Player.X);
+
+
+            bool result = MockBoard.allInMill(Player.X);
+            Assert.AreEqual(expected, result);
+        }
+
+
 
 
     }
